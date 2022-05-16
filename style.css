@@ -1,1 +1,128 @@
 /* Add CSS later */
+
+body {
+    display: inherit;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(/home/manny/Documents/Rock-Paper-Scissors/RPS-Background.png);
+    background-size: cover;
+}
+
+.banner {
+    display: inline;
+    flex-direction: column;
+    margin: 0px 0px;
+    width: 125px;
+    line-height: 1.0;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: black;
+    padding: 30px 57px 0 57px
+    } 
+
+.tag {
+    font-size: 39px;
+    display: inline;
+    flex-direction: row;
+    line-height: 25px;
+    background-color: black;
+    padding: 0 42px 15px 42px;
+}
+
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: black;
+    margin: 25px 0px;
+    line-height: 25px;
+}
+
+h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    display: inline-flex;
+    color: black;
+    padding: 0px 25px 0 25px;
+}
+
+h4 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: black;    
+    font-size: 36px;
+    padding: 0px 25px 0px 25px;
+    margin: 10px;
+}
+
+h5 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    display: inline-flex;
+    color: white;   
+    background-color: black; 
+    font-size: 42px;
+    padding: 10px 100px 10px 100px;
+    margin: 0;
+}
+
+div {
+    height: auto;
+    margin: 0 auto;
+}
+
+#result {
+    font-size: 24px;
+}
+
+input {
+    background-color: white;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    margin: 25px;
+    border-radius: 50px;
+}
+
+
+img {
+    max-width: 65%;
+    height: auto;
+}
+
+u {
+    vertical-align: 8px;
+    text-decoration-thickness: 5px;
+}
+
+#compScore {
+    color: white;
+}
+
+#playerScore {
+    color: white;
+}
+
+.score {
+    display: inline-flex;
+    background-color: rgb(58, 57, 57);
+    color: white;
+}
+
+button {
+    font-size: 36px;
+    color: black;
+    background-color: #24F688;
+    margin: 50px auto;
+}

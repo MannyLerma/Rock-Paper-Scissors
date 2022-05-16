@@ -3,20 +3,59 @@
   <head>
     <meta charset = "utf-8">
     <title> Rock, Paper or Scissors </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:italic,wght@1,800&display=swap" rel="stylesheet">
   </head>
   <body>
 
     
-    <div id = "game">
+    
 
-      <h1>Rock Paper Scissors </h1>
-      <h2> Choose Your Fighter </h2>
+      <div class = "banner">
+        <h1>RPS</h1> <br>
+        <h1 class = "tag">FIGHT&nbsp<u style = "font-size: 28px;">NIGHT</u></h1>
+      </div>
 
-      <!--- <button id = "rock"> rock </button>
-      <button id = "paper"> paper </button>
-      <button id = "scissors"> scissors </button> --->
+      <div class = "main-event">
+        <img src="RPS-Main-event.png" alt = "Rock vs Paper vs Scissors">
+      </div>    
+
+
+
+      <div id = "game">
+        <input type = "image" src = "rock-choice.png" id = "rock" value = "Rock"> </input>
+        <input type = "image" src = "paper-choice.png" id = "paper" value = "Paper">  </input>
+        <input type = "image" src = "scissors-choice.png" id = "scissors" value = "Scissors">  </input> 
+        <h2 style = "font-size: 36px;"> Choose Your Fighter </h2>
+      </div>
+
+<!---      <div>
+        <h2 id = "score"></h2>
+      </div>  --> 
+
+      <div class = "score">
+        <h4 id = "playerScore"></h4>
+        <h5> RPS </h5>
+        <h4 id = "compScore"></h4>
+      </div>
+
+
+    <div>  
+      <h2 id="result" style = "font-size: 48px; color: white; text-shadow: 2px 2px black;"
+      ></h1>
     </div>
+
+    <button onClick = "refreshPage()"  > Press for a rematch </button>
 
     <script src = "index.js" charset = "utf-8"></script>
   </body>
 </html>
+
+<!------ This is old code that works correctly
+<div id = "game">
+  <input type = "button" id = "rock" value = "Rock">  </input>
+  <input type = "button" id = "paper" value = "Paper">  </input>
+  <input type = "button" id = "scissors" value = "Scissors">  </input> 
+</div> ---->
